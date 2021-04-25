@@ -35,3 +35,15 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0; 
 }
+
+function changeBg() {
+  let mainBg = document.querySelector('body');
+  let scrollValue = window.scrollY;
+  if (scrollValue < 60 ){
+    mainBg.classList.remove('newBgColor');
+  }
+  else
+    mainBg.classList.add('newBgColor');
+}
+
+window.addEventListener('scroll', changeBg);

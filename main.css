@@ -10,8 +10,20 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 color: #131417;
+/* background-image: linear-gradient(180deg, #34F0E0 0%, #34F0E0 100%);  */
 background-color: #34F0E0;
 margin: 0;
+}
+
+.newBgColor {
+/* background-image: linear-gradient(180deg, #34F0E0 0%, #DCF002 100%); */
+/* transition: background-image 10s ease-in;
+-webkit-transition: background-image 10s ease-in;
+-ms-transition: background-image 10s ease-in; */
+background-color: #B9FA02;
+transition: background-color 10s ease-in;
+-webkit-transition: background-color 10s ease-in;
+-ms-transition: background-color 10s ease-in;
 }
 
 /* navigation menu styling */
