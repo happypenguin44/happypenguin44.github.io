@@ -10,7 +10,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 color: #131417;
-/* background-image: linear-gradient(180deg, #34F0E0 0%, #34F0E0 100%);  */
+/* background-image: linear-gradient(180deg, #34F0E0 0%, #DCF002 100%); */
 background-color: #34F0E0;
 margin: 0;
 }
@@ -20,10 +20,10 @@ margin: 0;
 /* transition: background-image 10s ease-in;
 -webkit-transition: background-image 10s ease-in;
 -ms-transition: background-image 10s ease-in; */
-background-color: #B9FA02;
-transition: background-color 10s ease-in;
--webkit-transition: background-color 10s ease-in;
--ms-transition: background-color 10s ease-in;
+background-color: #ADF54E;
+transition: background-color 5s ease-in;
+-webkit-transition: background-color 5s ease-in;
+-ms-transition: background-color 5s ease-in;
 }
 
 /* navigation menu styling */
@@ -166,7 +166,7 @@ margin-top: 24px;
 padding: 120px 16px;
 background-color: transparent !important;
 color: #131417;
-margin: 0;
+margin-bottom: 96px;
 }
 
 /* footer styling */
@@ -175,6 +175,18 @@ background-color: #131417;
 border-top: 1px solid #1B1D21;
 padding: 20px 16px;
 margin: 0;
+position: relative;
+z-index: 3;
+}
+
+#boba {
+background-image: url("images/1f9cb.svg");  
+width: 240px;
+height: 240px;
+position: absolute;
+right: 0px;
+margin-top: 16px;
+z-index: 2;      
 }
 
 /* text styling */
@@ -250,9 +262,9 @@ cursor: pointer;
 }
 
 button:active {
-background-color: #8CF06C;
+background-color: #D9D9DA;
 color: #131417;
-border: 2px solid #8CF06C;
+border: 2px solid #D9D9DA;
 cursor: pointer;
 }
 
@@ -279,6 +291,10 @@ background-color: #ECECEC;
 -webkit-transition: background-color 200ms ease-in;
 -ms-transition: background-color 200ms ease-in;
 transition: background-color 200ms ease-in; 
+}
+
+#top-button:active {
+background-color: #D9D9DA;    
 }
 }   
 

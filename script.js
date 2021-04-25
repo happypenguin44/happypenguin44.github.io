@@ -9,18 +9,6 @@ document.querySelector("#plant-children").onclick = function () {
     location.href = 'http://www.destroysf.com/table-of-contents-queers-destroy-science-fiction/';
 };
 
-// emoji from Twitter emoji/twemoji. Github: https://github.com/twitter/twemoji
-const footer = document.querySelector('footer');
-const boba = document.createElement('img');
-boba.setAttribute('src', 'images/1f9cb.svg');
-boba.setAttribute('width', 200);
-boba.setAttribute('height', 200);
-boba.style.position = "absolute";
-boba.style.zIndex = 5;
-footer.style.zIndex = 10;
-footer.appendChild(boba);
-
-
 topButton = document.getElementById("top-button");
 window.onscroll = function() {scrollFunction()};
 
