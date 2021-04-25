@@ -38,6 +38,7 @@ align-items: center;
 #logo {
 color: #131417;
 font-weight: 700;
+font-size: 20px;
 }
 
 ul li {
@@ -55,6 +56,10 @@ li a:hover {
 color: #131417;
 text-decoration: none;
 }
+
+/* #menu {
+display: none;    
+} */
 
 
 /* about section styling  */
@@ -79,7 +84,7 @@ margin: 0 16px;
 }
 
 #bio {
-margin: 32px 16px 0 16px;
+margin: 40px 16px 0 16px;
 }
 
 /* short stories section styling */
@@ -274,9 +279,9 @@ position: fixed;
 bottom: 20px;
 right: 30px; 
 z-index: 99;    
-border-radius: 28px;
-width: 56px;
-height: 56px;
+border-radius: 32px;
+width: 64px;
+height: 64px;
 background-color: #FFF;
 color: #131417;
 border: none;
@@ -307,6 +312,10 @@ line-height: 1.5;
 
 nav {
 margin: 0 48px;
+}
+
+#menu {
+display: inline-block;    
 }
 
 #about {

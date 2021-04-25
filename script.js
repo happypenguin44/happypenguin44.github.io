@@ -1,3 +1,6 @@
+// const menu = document.getElementById("menu");
+// const hamburger = document.createElement('src', 'imagees/menu_black_24dp.svg');
+
 document.querySelector("#fossilized-img").setAttribute('src','images/IMG_20190510_080847.png'); 
 document.querySelector("#plant-children-img").setAttribute('src','images/IMG_20190515_163642.png');
 
@@ -24,6 +27,8 @@ function topFunction() {
   document.documentElement.scrollTop = 0; 
 }
 
+
+window.addEventListener('scroll', changeBg);
 function changeBg() {
   let mainBg = document.querySelector('body');
   let scrollValue = window.scrollY;
@@ -33,5 +38,3 @@ function changeBg() {
   else
     mainBg.classList.add('newBgColor');
 }
-
-window.addEventListener('scroll', changeBg);
